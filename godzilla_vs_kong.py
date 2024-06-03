@@ -1,8 +1,8 @@
 budget = float(input())
 statists = int(input())
-prize_clothes = float(input())
+price_clothes = float(input())
 
-total_clothes = statists * prize_clothes
+total_clothes = statists * price_clothes
 
 if statists >= 150:
     discount = total_clothes * 0.10
